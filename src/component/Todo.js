@@ -21,7 +21,7 @@ const Todo = (props) =>{
                 <i className="fa fa-check"></i>
             </button>
             <button onClick={deleteHandler} className="trash-btn">
-                <i className="fas fa-trash"></i>
+                <i className="fa fa-trash"></i>
             </button>
         </div>
     );

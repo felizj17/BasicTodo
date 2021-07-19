@@ -1,5 +1,4 @@
 import React,{useState,useEffect} from "react";
-import 'react-bootstrap'
 import './App.css';
 
 import Form from './component/form.js'
@@ -41,8 +40,8 @@ useEffect(()=>{
   saveLocalTodos();},[todos,filter]);
  return (
     <div className="App">
-      <header >
-        <h1>Juan's Todo List</h1>
+      <header className="mt-4" >
+        <h1>Todo List</h1>
       </header>
       <Form         
         setFilter={setFilter} 
